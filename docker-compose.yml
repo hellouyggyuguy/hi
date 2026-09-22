@@ -1,0 +1,7 @@
+services:
+  alpine-desktop:
+    image: lscr.io/linuxserver/webtop:latest
+    container_name: alpine_gui
+    privileged: true
+    ports:
+      - '6080:3000'
